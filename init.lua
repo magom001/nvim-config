@@ -8,6 +8,9 @@ vim.g.maplocalleader = " "
 -- Base editor options.
 require("options")
 
+-- Autocommands (e.g. auto-reload files changed outside Neovim).
+require("autocmds")
+
 -- Bootstrap the lazy.nvim plugin manager (clones itself on first run).
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then

@@ -15,6 +15,7 @@ opt.splitright = true        -- vertical splits open on the right
 opt.splitbelow = true        -- horizontal splits open below
 opt.wrap = false             -- no line wrapping
 opt.undofile = true          -- persistent undo across sessions
+opt.updatetime = 250         -- faster CursorHold (drives auto-reload & git signs)
 
 -- Indentation: 4 spaces (override per-language later if needed).
 opt.expandtab = true
