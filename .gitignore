@@ -1,0 +1,6 @@
+# Local Neovim state that should not be versioned.
+# (Plugins themselves live in nvim-data, outside this directory.)
+*.shada
+shada/
+spell/
+sessions/
